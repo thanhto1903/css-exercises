@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
   height: 100vh;
@@ -23,4 +23,61 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+/* My solution */
+
+ul {
+  list-style-type: none;
+}
+
+a:link,
+a:visited {
+  color: gray;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  background-color: rgb(224, 224, 224);
+}
+
+.header .left-links,
+.header .right-links,
+.footer .left-links,
+.footer .right-links {
+  display: flex;
+  padding: 15px;
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.buttons button {
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+  justify-content: center;
 }
